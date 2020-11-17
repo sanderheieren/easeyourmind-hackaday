@@ -1,0 +1,141 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: rgb(81,129,176);
+  color: hsl(209, 61%, 16%);
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2{
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+  text-align: center;
+
+}
+h1 {
+  margin-top: 3rem;
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  margin-bottom: 1.25rem;
+  color: rgb(23,41,64);
+}
+
+.container {
+  width: 90vw;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.nav ul{
+  display: flex;
+  margin: 4rem auto;
+  justify-content: center;
+}
+
+.link, .btn, .btn-inactive, .btn-done {
+  display: inline-block;
+  background: rgb(142,175,209);
+  color: #fff;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+  border-color: transparent;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+ margin: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.btn-inactive, .btn-active, .btn-done{
+  /* width: 100%; */
+  margin: 0 auto;
+  border: 1px solid rgb(23,41,64);
+}
+.btn-active {
+  opacity: 0;
+}
+
+
+.link:hover {
+  background: hsl(205, 86%, 17%);
+  color: hsl(205, 78%, 60%);
+}
+.item {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem auto;
+  align-items: center;
+  font-size: 1.25rem;
+  border-radius: 0.25rem;
+  padding: 1rem 2rem;
+  line-height: 2;
+
+}
+.timer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 4rem;
+}
+
+.form {
+  background:rgb(142,175,209);
+  margin: 2rem auto;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.25rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.nasa-photo {
+  border-radius: 0.25rem;
+  width: 80%;
+  height: 80%;
+}
+
+.quote, .overmind {
+  justify-content: center;
+  font-size: 3rem;
+  margin: 0 5rem;
+  background-color: rgb(149,174,206);
+}
+ 
+.overmind-logo {
+  font-size: 200px;
+  margin-bottom: 30px;
+}
+
+.article {
+height: 300px;
+  margin-top: 20px;
+border-radius: 50%;
+  background-color: rgb(149,174,206);
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container.breathe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
